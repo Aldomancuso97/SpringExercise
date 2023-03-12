@@ -12,9 +12,8 @@ import java.net.http.HttpHeaders;
 public class ControlHeaders {
 
 
-   /* @GetMapping("/headers")
+    /*@GetMapping("/headers")
     public String getHeader(@RequestHeader HttpHeaders headers) {
-        //prendo oggetto Host
         InetSocketAddress host = headers.getHost();
         return ("The host is: " + host.getHostName()
                 + " and the port is: " + host.getPort());
